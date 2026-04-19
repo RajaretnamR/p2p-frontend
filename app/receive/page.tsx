@@ -83,7 +83,7 @@ export default function ReceivePage() {
     setTransferProgress(0);
 
 
-    const ws = new WebSocket(`ws://${window.location.hostname}:8000/ws`);
+    const ws = new WebSocket("wss://p2p-backend-izn2.onrender.com/ws");
     wsRef.current = ws;
 
     ws.onopen = () => {
