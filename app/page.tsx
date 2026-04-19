@@ -12,7 +12,7 @@ export default function HomePage() {
       </header>
 
       {/* Main content */}
-      <main className="flex-1 container flex flex-col items-center justify-center max-w-5xl py-12">
+      <main className="flex-1 container flex flex-col items-center  max-w-5xl py-12">
         <div className="text-center space-y-8 w-full max-w-2xl mx-auto">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/80 text-xs font-medium">
             WebSocket File Transfer
@@ -89,10 +89,6 @@ export default function HomePage() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="container py-6 text-center text-sm text-muted-foreground">
-        <p> Files are transferred through our secure Axum server.</p>
-      </footer>
     </div>
   )
 }
